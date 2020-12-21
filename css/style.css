@@ -217,13 +217,6 @@ img {
 	margin-bottom: 50px;
 }
 
-@media (max-width: 600px) {
-	.menu-container {
-		flex-direction: column;
-		width: 300px;
-	}
-}
-
 @media (max-width: 1200px) {
 	.menu-container {
 		flex-direction: column;
@@ -236,6 +229,13 @@ img {
 	.menu-right {
 		margin-right: : 20px; 
 		margin: 0 auto;
+	}
+}
+
+@media (max-width: 600px) {
+	.menu-container {
+		flex-direction: column;
+		width: 300px;
 	}
 }
 
